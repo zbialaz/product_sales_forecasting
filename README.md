@@ -20,10 +20,10 @@ This project implements a complete time series forecasting pipeline for product 
 ```
 product_sales_forecasting/
 ├── data/
-│   └── product_sales.csv          # Raw sales data
+│   └── product_sales.csv         # Raw sales data
 ├── notebook/
-│   └── product_sales.ipynb        # Main analysis notebook
-├── requirements.txt               # Python dependencies
+│   └── product_sales.ipynb       # Main analysis notebook
+├── requirements.txt              # Python dependencies
 ├── venv/                         # Virtual environment
 └── README.md                     # Project documentation
 ```
