@@ -148,16 +148,6 @@ The analysis provides:
 4. **Optimal Parameters**: Best-fit model configurations
 5. **Future Predictions**: Reliable sales forecasts with confidence intervals
 
-## 🔍 Model Performance Metrics
-
-| Model | MAE | RMSE | MAPE | AIC | BIC |
-|-------|-----|------|------|-----|-----|
-| Naive | - | - | - | - | - |
-| ARIMA | - | - | - | - | - |
-| SARIMA | - | - | - | - | - |
-
-*Note: Actual metrics will be populated after running the analysis*
-
 ## 📝 Usage Examples
 
 ### Quick Start
