@@ -147,27 +147,3 @@ The analysis provides:
 3. **Model Performance**: Comparative analysis of different approaches
 4. **Optimal Parameters**: Best-fit model configurations
 5. **Future Predictions**: Reliable sales forecasts with confidence intervals
-
-## 📝 Usage Examples
-
-### Quick Start
-```python
-# Load the notebook and run all cells for complete analysis
-# Key results will be displayed in the output cells
-
-# For custom analysis:
-from notebook.product_sales import *
-
-# Load data
-df = pd.read_csv('data/product_sales.csv')
-
-# Create features
-df_features = create_temporal_features(df)
-
-# Detect outliers
-outliers = detect_sales_outliers(df_features)
-
-# Build and evaluate models
-models = create_baseline_models(df_features)
-arima_model = create_optimized_arima(train_data, test_data)
-```
